@@ -1,4 +1,5 @@
 import BG from "../../public/images/banner-img.svg";
+import ComSer from "../components/commitments-ser/commitments-ser";
 import Commitments from "../components/commitments/commitments";
 import ComperehensiveCybersecurIty from "../components/comperehensive-cybersecurIty/comperehensive-cybersecurIty";
 import StayCompliant from "../components/stay-compliant/stay-compliant";
@@ -21,7 +22,8 @@ export default function Services() {
             </section>
             <ComperehensiveCybersecurIty />
             <Commitments />
+            <ComSer />
             <StayCompliant />
         </section>
-    )
+    );
 }
